@@ -1,10 +1,10 @@
 #vim swap file
-.*.swp
+AI/.*.swp
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+AI/__pycache__/
+AI/*.py[cod]
+AI/*$py.class
 
 # C extensions
 *.so
