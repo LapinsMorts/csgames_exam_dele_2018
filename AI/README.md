@@ -9,6 +9,7 @@ affiche le nombre de fruits qui sont autour, en comptant les diagonales. La vale
 peut prendre une tuile est donc dans l'intervale [0,8]. Le nombre 0 signifie qu'aucun fruit n'est
 contenu dans les tuiles environnantes, tandis que 8 veut dire que la case est complètement entourée
 de fruits! Ainsi, pour gagner, vous devez identifier la position de tous les fruits en les flaggant.
+Les dimensions de la grille grille sont de 10x10.
 
 ##  VALEUR DE RETOUR
 
