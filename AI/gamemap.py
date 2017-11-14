@@ -39,7 +39,7 @@ class GameMap(object):
         map_string = ""
         for i in range(self.__width):
             for j in range(self.__width):
-                map_string += self.__map_format[i][j]
+                map_string += self.__map_format[j][i]
             map_string += "\n"
         return map_string
 

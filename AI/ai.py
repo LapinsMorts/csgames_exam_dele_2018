@@ -19,15 +19,16 @@ class AI(object):
         and a number represents the amount of tiles containing a fruit
         surrounding the tile
         """
-        self.__return_x = (self.__return_x + 1) % len(game_map)
-        if self.__return_x == 0:
-            self.__return_y += 1
+#        self.__return_x = (self.__return_x + 1) % len(game_map)
+#        if self.__return_x == 0:
+#            self.__return_y += 1
 
-        time.sleep(0.1)
-#        self.__return_x = int(input())
-#        self.__return_y = int(input())
+#        time.sleep(0.1)
+        action = input()
+        self.__return_x = int(input())
+        self.__return_y = int(input())
 
-        return {"action":"explore",
+        return {"action":action,
                 "X":self.__return_x,
                 "Y":self.__return_y
                }
