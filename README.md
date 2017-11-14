@@ -1,6 +1,6 @@
 # csgames_exam_dele_2018
 
-## AI --> FruitSweeper
+# AI --> FruitSweeper
 
 Basé sur MinesSweeper (Démineur), FruitSweeper est une version CLI du jeu. Lorsqu'on explore un carré
 de la carte dans le jeu, on risque de tomber sur un fruit. Comme nous sommes allergiques
@@ -10,7 +10,7 @@ peut prendre une tuile est donc dans l'intervale [0,8]. Le nombre 0 signifie qu'
 contenu dans les tuiles environnantes, tandis que 8 veut dire que la case est complètement entourée
 de fruits! Ainsi, pour gagner, vous devez identifier la position de tous les fruits en les flaggant. 
 
-###Détails
+##  VALEUR DE RETOUR 
 
 Vous devez completer le fichier AI.py, la fonction play. Vous devez retourner un dictionnaire
 qui suit le format suivant: 
@@ -28,6 +28,7 @@ Y représente la position en Y où on veut faire l'action
 Ainsi, si je veux explorer la case [5,6] de la carte, je vais retourner l'objet suivant: 
 	{"action":"explore", "X":5, "Y": 6}
 
+## game_map --> paramètre d'entrée
 
 Le paramètre game_map est une liste de listes de strings qui contient les détails du jeu 
 comme il est présentement. Les valeurs possibles des cases de la liste à deux dimensions
