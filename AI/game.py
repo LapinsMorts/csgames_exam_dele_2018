@@ -13,7 +13,7 @@ turns_counter = 0
 init_time = time.time()
 
 while not game_map.is_end_game():
-    action = player.play(game_map.get_map_format())
+    action = player.play(game_map.get_map_format(), {})
     turns_counter += 1
     if action["action"] == "explore":
         game_map.explore(action["X"], action["Y"])
