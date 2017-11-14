@@ -14,26 +14,34 @@ de fruits! Ainsi, pour gagner, vous devez identifier la position de tous les fru
 
 Vous devez completer dans le fichier AI.py la fonction play. Vous devez retourner un dictionnaire
 qui suit le format suivant:
-      {"action":"[(explore)(flag)(unflag)]", "X":0, "Y": 0}
+
+	{"action":"tonActionIci", "X":0, "Y": 0}
 
 1. Les actions possibles sont:
-..*	"flag" --> marque une case d'un P pour indiquer que l'on pense qu'il y a un fruit en dessous
-..*	"unflag" --> retire le P et remet un X à la place, la case est de nouveau une simple case non
-			explorée
-..*	"explore" --> Explore la case de la carte pour savoir combien de fruits il y a autour
+
+| Commande     | Description                                                                               |
+| ------------ | ----------------------------------------------------------------------------------------- |
+| "flag"       | Marque une case d'un P pour indiquer que l'on pense qu'il y a un fruit en dessous         |
+| "unflag"     | Retire le P et remet un X à la place, la case est de nouveau une simple case non explorée |
+| "explore"    | Explore la case de la carte pour savoir combien de fruits il y a autour                   |
+	
 
 2. X représente la position en X où on veut faire l'action
 3. Y représente la position en Y où on veut faire l'action
 
 Ainsi, si je veux explorer la case [5,6] de la carte, je vais retourner l'objet suivant:
-..*	{"action":"explore", "X":5, "Y": 6}
+
+	{"action":"explore", "X":5, "Y": 6}
 
 ## game_map --> paramètre d'entrée
 
 Le paramètre game_map est une liste de listes de strings qui contient les détails du jeu
 comme il est présentement. Les valeurs possibles des cases de la liste à deux dimensions
 sont donc les suivantes:
-..*	"X" --> représente une case inexplorée. Au début, toutes les cases sont des X
-..*	"P" --> représente une case flaggée, on pense donc qu'il y a un fruit en dessous
-..*	"2" --> un nombre représente le nombre de fruit autour de cette case. Les nombres
-		peuvent prendre les valeurs [0,8]
+
+| Caractère | Description                                                                                                 |
+| --------- | ----------------------------------------------------------------------------------------------------------- |
+| "X"       | représente une case inexplorée. Au début, toutes les cases sont des X                                       |
+| "P"       | représente une case flaggée, on pense donc qu'il y a un fruit en dessous                                    |
+| "2"       | un nombre représente le nombre de fruit autour de cette case. Les nombres peuvent prendre les valeurs [0,8] |
+		
