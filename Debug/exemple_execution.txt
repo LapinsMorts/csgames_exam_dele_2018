@@ -1,0 +1,137 @@
+debug@me ~/D/d/c/D/corrected> make; ./corrected
+rm -f build/depend
+g++ -std=gnu++14 -MM client.cpp marguerite.cpp main.cpp fleur.cpp magasin.cpp tulipe.cpp | awk '{print "build/./" $0;}' >> build/depend
+g++ -std=gnu++14 -c main.cpp -o build/./main.o
+g++ -std=gnu++14 -o corrected build/./client.o build/./marguerite.o build/./main.o build/./fleur.o build/./magasin.o build/./tulipe.o -lpthread
+Creation du magasin
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 90 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 90 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 90 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 90 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 90 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 93 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 93 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 93 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 93 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 93 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 96 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 96 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 96 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 96 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 96 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 99 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 99 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 99 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 99 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 99 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 89 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 89 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 89 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 89 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 89 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 92 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 92 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 92 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 92 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 92 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 95 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 95 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 95 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 95 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 95 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 98 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 98 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 98 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 98 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 98 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 91 Soleil: 98 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 88 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 88 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 88 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 88 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 88 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 88 Soleil: 94 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 91 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 91 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 91 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 91 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 91 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 90 Soleil: 100 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 94 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 94 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 94 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 94 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 83 Soleil: 94 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 92 Soleil: 96 Temperature Ideale: 0 Prix: 10.000000
+
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 97 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 97 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 97 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 97 Temperature Ideale: 25 Prix: 12.500000
+Nom: Tulipe Vivante: True Eau: 82 Soleil: 97 Temperature Ideale: 25 Prix: 12.500000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
+Nom: Marguerite Vivante: True Eau: 89 Soleil: 92 Temperature Ideale: 0 Prix: 10.000000
