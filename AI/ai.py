@@ -13,7 +13,7 @@ class AI(object):
     def play(self, game_map):
         """You must complete this function and return
         a dictionnary following the format:
-        {"action":"[(explore)(flag)(unflag)]", "X":0, "Y", 0}
+            {"action":"[(explore)(flag)(unflag)]", "X":0, "Y": 0}
         game_map is a list of lists of string which contains the details
         of the tile: X is for unexplored tile, P is for a flagged tile
         and a number represents the amount of tiles containing a fruit
